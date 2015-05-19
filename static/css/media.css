@@ -1,0 +1,189 @@
+/* lg *-/
+@media only screen and (min-width : 1201px) {
+
+} */
+/* md *-/
+@media only screen and (max-width : 1200px) {
+
+} */
+/* below sm *-/ 
+@media only screen and (max-width : 480px) {
+
+}
+@media only screen and (max-width : 320px) {
+
+}
+@media only screen and (max-width : 290px) {
+
+}
+/-* /below sm */
+
+/* sm */
+@media only screen and (max-width : 992px) {
+
+    .footer .chrmp-social > ul {
+        text-align: center;
+    }
+    .footer .chrmp-social > ul > li {
+        margin-bottom: 5px;
+    }
+    .footer .chrmp-social > ul > li:last-child {
+        margin-top: 25px;
+    }
+    .footer .bottom-logo-wrapper,
+    .footer .company-logo-wrapper {
+        float: none;
+        margin: 0 auto;
+    }
+    .footer .bottom-logo-wrapper {
+        max-width: 120px;
+    }
+    .footer .company-logo-wrapper {
+        display: block;
+        padding-top: 10px;
+        max-width: 160px;
+    }
+    .footer .footnote {
+        padding-top: 0;
+    }
+
+    /* menu sm */
+    html, body, #body-wrapper {
+        height: 100%;
+    }
+    #body-wrapper {
+        overflow-y: scroll;
+    }
+    #body-wrapper.x-sm-freeze {
+        overflow: hidden;
+    }
+    .menubar.x-sm-open,
+    .menubar.x-sm-open > .container {
+        height: 100%;
+    }
+    .menubar.x-sm-open ul.x-main {
+
+    } 
+        .menubar ul.x-main > li:hover > .menupane {
+            display: none;
+        }
+        .menubar ul.x-main > li.x-sm-open > .menupane {
+            display: block;
+            bottom: 0;
+            overflow-y: scroll;
+            /* padding */
+        }
+        .menubar ul.x-main > li.x-sm-open > .menupane > .container {
+            padding: 20px 15px;
+        }
+        .menubar ul.x-main > li > a:hover {
+            background-color: #f6f6f6;
+        }
+        .menubar ul.x-main > li.x-sm-open > a {
+            border-top-color: #E04E18;
+            background-color: #ddd;
+        }
+    /* /menu sm */
+}
+/* xs */
+@media only screen and (max-width : 768px) {
+    /* undo menu sm */
+    #body-wrapper.x-sm-freeze {
+        overflow: auto;
+    }
+    .menubar.x-sm-open {
+        height: 50px;
+    }
+    .menubar.x-sm-open > .container {
+        height: auto;
+    }
+    .menubar ul.x-main > li.x-sm-open > .menupane {
+        bottom: auto;
+        overflow-y: auto;
+    }
+    .menubar ul.x-main > li.x-sm-open > a {
+        border-top-color: transparent;
+        background-color: none;
+    }
+    .menubar ul.x-main > li.x-sm-open > .menupane > .container {
+        padding: 0 15px;
+    }
+    /* /undo menu sm */
+
+    html, body, #body-wrapper {
+        height: 100%;
+    }
+    #body-wrapper {
+        overflow-y: scroll;
+    }
+    #body-wrapper.x-freeze {
+        overflow: hidden;
+    }
+
+    .menubar li#hamburger-menu {
+        display: block;
+    }
+    .menubar.x-open,
+    .menubar.x-open > .container {
+        height: 100%;
+    }
+    .menubar ul.x-always {
+        float: none;
+        display: block;
+    } 
+    .menubar ul.x-always > li#hamburger-menu {
+        float: right;
+    } 
+    .menubar ul.x-main {
+        display: none;
+        float: none;
+        clear: both;
+        background-color: #eee;
+
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        margin-top: 50px;
+        overflow-y: scroll;
+    }
+    .menubar.x-open ul.x-main {
+        display: block;
+    } 
+        .menubar ul.x-main > li {
+            float: none;
+            clear: both;
+        }
+        .menubar ul.x-main > li > a {
+            border-bottom: #bbb solid 1px;
+        }
+        .menubar ul.x-main > li:hover > a {
+            border-top-color: transparent;
+            background-color: #e2e2e2;
+        }
+        .menubar ul.x-main > li:hover > .menupane {
+            display: none;
+        }
+        .menubar.x-open ul.x-main > li > .menupane {
+            display: none;
+            position: relative;
+            float: none;
+            margin-top: 0;
+        }
+        .menubar ul.x-main > li.x-open > .menupane {
+            display: block;
+        }
+        .menubar ul.x-main > li.x-open > a {
+            background-color: #d2d2d2;
+            font-weight: bold;
+        }
+    a.heading-link {
+        display: block;
+        float: none;
+        text-align: center;
+        border-top: #ccc solid 2px;
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+}
